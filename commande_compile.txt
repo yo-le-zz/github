@@ -1,0 +1,1 @@
+python -m nuitka --onefile --windows-icon-from-ico=assets/icon.ico --output-dir=dist --output-filename=github_viewer.exe --remove-output --assume-yes-for-downloads --enable-plugin=anti-bloat src/main.py
